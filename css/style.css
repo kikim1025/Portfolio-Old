@@ -69,8 +69,14 @@ h4 {/*update this part later*/
     background-color: #f3f3f3;
 }
 
+.project__image {
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    background-size: 100% 100%;
+}
+
 #project__image-1 {
-    background-size: cover;
     background-image: url("../assets/images/placeholder.png");
 }
 /*-----Contact html-----*/
