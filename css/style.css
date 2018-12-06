@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    background-color: #f4eff7;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, [col] auto);
+}
+
+.navbar__name {
+    grid-column: 1 / 4;
+    margin: 0;
+    font-size: 25px;
+}
+
+.navbar__links {/*update to button*/
+    grid-column: 5;
+    margin: auto;
+    font-size: 20px; 
+}
+
+h4 {/*update this part later*/
+    margin: 4px 20%;
+    border: 1px solid rgb(54, 34, 54);
+}
+
+.title {
+    width: 50%;
+    margin: 10px 10px 10px 10%;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 1px ridge #460440;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;/*animate size on load to shorten*/
+}
+
+.container {
+    margin: 3% auto;
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    border: 3px ridge #cea9cb;
+    font-size: 17px;
+}
+
+
+/*-----About html-----*/
+#profile-pic {
+    display: block;
+    width: 100px;
+    margin: 50px auto 0px auto;
+}
+
+#container--about {
+    width: 70%;
+}
+
+
+/*-----Projects html-----*/
+#container--projects {
+    width: 90%;
+    grid-template-columns: repeat(3, [col] auto);
+}
+
+.project {
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+#project__image-1 {
+    background-size: cover;
+    background-image: url("../assets/images/placeholder.png");
+}
+/*-----Contact html-----*/
+
+
+
+
+/*Add responsiveness
+ -----Main html-----
+.button {
+   background-color: #78e7f3; 
+}
+
+#button-up {
+
+}
+
+#button-right {
+
+}
+
+#button-down {
+
+}
+
+#button-left {
+
+}
+*/
