@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #f4eff7;
+    background: linear-gradient(101deg, #f3d7f0, #e5d6ec, #f1eef3);
+    border-bottom: 2px ridge #080408;
+    display: grid;
+    grid-template-columns: repeat(5, [col] auto);
+    padding: 20px 10px;
+}
+
+.navbar__name {
+    font-size: 25px;
+    grid-column: 1;
+    margin: 0;
+}
+
+.navbar__links {/*update to button*/
+    font-size: 20px; 
+    grid-column: 5;
+    margin: auto;
+}
+
+.title {
+    border-bottom: 1px ridge #460440;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 10px 10px 10px 10%;
+    padding: 20px;
+    width: 50%;
+}
+
+.container {
+    display: grid;
+    font-size: 17px;
+    grid-gap: 20px;
+    margin: 3% auto;
+    padding: 20px;
+}

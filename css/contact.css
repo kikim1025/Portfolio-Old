@@ -1,0 +1,14 @@
+#container--contact {
+    background-color: rgb(251, 227, 253);
+    margin: auto;
+    padding-bottom: 200px;
+    width: 70%;
+}
+
+.contact-list {
+    background-color: rgb(255, 176, 238);
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
