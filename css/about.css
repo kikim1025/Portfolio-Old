@@ -5,13 +5,12 @@
 #profile-pic {
     border-radius: 25px;
     display: block;
-    margin: 0px auto;
+    margin: 30px auto 0px auto;
     width: 200px;
 }
 
 #skills {
-    font-size: 25px;
-
+    font-size: 23px;
     margin: 20px auto 20px 30px;
 }
 
